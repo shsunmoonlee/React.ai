@@ -1,0 +1,54 @@
+.logo {
+  width: 120px;
+  height: 35px;
+  background-image: url(https://res.cloudinary.com/seunghunlee/image/upload/v1514172261/logo_wt342f.svg) !important;
+  background-repeat: no-repeat !important;
+  background-position: 50% !important;
+  background-size: 60% !important;
+  margin: 10px 24px 10px 0;
+  float: left;
+}
+.trigger {
+  font-size: 18px;
+  line-height: 64px;
+  padding: 0 24px;
+  cursor: pointer;
+  transition: color .3s;
+}
+
+.trigger:hover {
+  color: #1890ff;
+}
+
+.header {
+  background: linear-gradient(to right, rgba(255, 254, 155, 0.2), rgba(255, 254, 155, 0.6));
+  height: 57px;
+}
+.header-menu {
+  background-color: transparent;
+  line-height: 57px;
+  padding: 5px auto;
+}
+.mobile-menu {
+  background-color: transparent;
+  line-height: 50px;
+  padding: 5px auto;
+  display: none;
+}
+@media only screen and (max-width: 700px) {
+  .header-menu {
+    display: none;
+  }
+  .mobile-menu {
+    display: flex;
+    max-widtH: 200px;
+  }
+  .logo {
+    width: 80px;
+    margin: 0;
+    float: none;
+  }
+  .header {
+    display: flex;
+  }
+}

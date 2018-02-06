@@ -1,0 +1,17 @@
+.footer {
+  background: linear-gradient(to right, rgba(255, 254, 155, 0.2), rgba(255, 254, 155, 0.6));
+}
+.footer-logo {
+  width: 120px;
+  height: 35px;
+  background-image: url(https://res.cloudinary.com/seunghunlee/image/upload/v1514172261/logo_wt342f.svg) !important;
+  background-repeat: no-repeat !important;
+  background-position: 50% !important;
+  background-size: 60% !important;
+
+}
+@media only screen and (max-width: 700px) {
+  .footer-logo {
+    margin-bottom: 10px;
+  }
+}

@@ -1,0 +1,15 @@
+.gutter-box {
+  background: #00A0E9;
+  padding: 5px 0;
+}
+.ant-carousel .slick-slide {
+  text-align: center;
+  height: 350px;
+  line-height: 350px;
+  background: #364d79;
+  overflow: hidden;
+}
+
+.ant-carousel .slick-slide h3 {
+  color: #fff;
+}

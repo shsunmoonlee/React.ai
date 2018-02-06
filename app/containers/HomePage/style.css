@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css?family=Abel');
+
+body, div, h1, h2, h3, p, a, button {
+  font-family: 'Abel', sans-serif;
+}
+.homepage-gallery {
+  background: linear-gradient(to right, rgba(255, 254, 155, 0.2), rgba(255, 254, 155, 0.6));
+  padding: 30px;
+}
+.section-introduction {
+  background: linear-gradient(to left, rgba(255, 254, 155, 0.2), rgba(255, 254, 155, 0.6));
+  padding: 30px;
+}
+.section-portfolio {
+  background: linear-gradient(to right, rgba(255, 254, 155, 0.2), rgba(255, 254, 155, 0.6));
+  padding: 30px;
+}
+.jumbotron-left-text {
+  padding: 30px;
+}
+@media only screen and (max-width: 600px) {
+  .homepage-gallery, .section-introduction, .section-portfolio, {
+    padding: 0px;
+    margin: 0px;
+  }
+}
