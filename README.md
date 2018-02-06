@@ -1,5 +1,8 @@
 # React.ai
 
+Follow the tutorial, read about this project at
+[medium article](https://medium.com/@seunghunsunmoonlee/react-ai-react-machine-learning-ai-3d7f9b58c322) written by Seunghun Lee.
+
 ## In a nutshell
 React.ai is React.js, Redux, Hot Reloading, ESNext, Babel, react-router, Offline First, ServiceWorker, `styled-components`, redux-saga, FontFaceObserver, Machine Learning(DialogFlow, apiai), Speech Recognition, GraphQL, Next.js Universal rendering starter kit(boilerplate)⚡️ - SEO-Ready, Production-Ready, SSR, Hot-Reload, CSS-in-JS, Caching, CLI commands and more...
 
